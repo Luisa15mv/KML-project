@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;1,400&display=swap');
+
+* {margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+    background-image:url(assest/img/fondopalos.jpg);
+    font-family: 'Merriweather', serif;
+    color:slategray
+    
+}
+h2 {
+    font-family:'Merriweather';
+    text-transform: uppercase;
+    color:dimgrey
+}
+
+#logo {
+    float:left;
+    font-size:200%;
+}
+#menu {
+    font-size: 110%;
+    list-style-type:none;
+    letter-spacing:4px; }
+
+#menu li {
+    float:right;
+    margin-right: 30px;
+
+}
+#menu a{
+    text-decoration: none;
+    color:inherit;
+}
+#menu a:hover{
+    border-bottom: 1px;
+
+}
+
